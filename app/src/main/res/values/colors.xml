@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+        <!--<color name="black">#111333</color>
+        <color name="colorPrimaryDark">#08091B</color>
+        <color name="colorAccent">#111333</color>-->
+        <color name="year">#999999</color>
+
+        <color name="white">#ffffff</color>
+        <color name="black">#000000</color>
+        <color name="grey">#d3d3d3</color>
+        <color name="blue">#0D1332</color>
+        <color name="green">#FF02C8A1</color>
+        <color name="light_blue">#FF2485FD</color>
+        <color name="snackbar_color">#01BF8F</color>
+        <color name="splash_gray">#F1F1F1</color>
+
+        <color name="yello">#FCDB06</color>
+        <color name="gray">#808080</color>
+        <color name="transparent">#FFFFFFFF</color>
+        <color name="txt_gray">#A7A7A7</color>
+        <color name="white_trans">#1affffff</color>
+        <color name="light_gray">#e9e9e9</color>
+        <color name="review_black">#2D2929</color>
+        <color name="orange">#D43C28</color>
+
+
+</resources>

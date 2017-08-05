@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_selectStore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/select_store"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/_70sdp"
+        android:layout_marginRight="@dimen/_70sdp"
+        android:layout_marginTop="@dimen/_80sdp"
+        android:paddingTop="@dimen/_10sdp"
+        android:paddingBottom="@dimen/_10sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_15sdp"
+        />
+
+   <RelativeLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_marginTop="@dimen/_50sdp"
+       android:gravity="center"
+       android:layout_gravity="center"
+       android:background="@drawable/bg_spinner">
+       <Spinner
+           android:id="@+id/spinner"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:padding="@dimen/_10sdp"
+           android:dropDownVerticalOffset="50dp"
+           />
+   </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_rounded"
+        android:layout_marginTop="@dimen/_70sdp"
+        android:paddingLeft="@dimen/_30sdp"
+        android:paddingRight="@dimen/_30sdp"
+        android:paddingTop="@dimen/_8sdp"
+        android:paddingBottom="@dimen/_8sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_15sdp"
+        android:onClick="clickOk"/>
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="esecforte.com.qrscanner.LoginActivity">
+
+
+    <TextView
+        android:id="@+id/tv_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/_70sdp"
+        android:layout_marginRight="@dimen/_70sdp"
+        android:background="@drawable/bg_login"
+        android:gravity="center"
+        android:paddingBottom="@dimen/_10sdp"
+        android:paddingTop="@dimen/_10sdp"
+        android:text="@string/login"
+        android:textColor="@color/white" />
+
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tv_login"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:layout_marginLeft="@dimen/_50sdp"
+        android:layout_marginRight="@dimen/_50sdp"
+        android:background="@drawable/bg_spinner"
+        android:hint="password"
+        android:padding="@dimen/_10sdp"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/et_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/et_password"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:layout_marginLeft="@dimen/_50sdp"
+        android:layout_marginRight="@dimen/_50sdp"
+        android:background="@drawable/bg_spinner"
+        android:hint="user name"
+        android:padding="@dimen/_10sdp"
+        android:textColor="@color/black" />
+
+</RelativeLayout>
